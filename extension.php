@@ -15,3 +15,5 @@ class SpecialPageHelloWorld extends SpecialPage
         PIZZADOWN);
     }
 }
+
+$api->registerSpecialPage("HelloWorld", SpecialPageHelloWorld::class);
